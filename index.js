@@ -26,7 +26,7 @@ const questions = [
     message: "Please write a short description of your project:",
   },
   {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "What king of license should you project have?",
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
@@ -58,7 +58,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileContent) {
   return new Promise((resolve, reject) => {
-    fs.writeFile("./Develop/dist/generatedReadme.md", fileContent, (err) => {
+    fs.writeFile("./Develop/dist/README.md", fileContent, (err) => {
       if (err) {
         reject(err);
         return;
