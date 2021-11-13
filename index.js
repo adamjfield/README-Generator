@@ -56,12 +56,42 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
+function writeToFile(fileContent) {
+  return new Promise((resolve, reject) => {
+    fs.writeFile("./Develop/dist/generatedReadme.md", fileContent, (err) => {
+      if (err) {
+        reject(err);
+        return;
+      }
 
+      resolve({
+        message: "Generating README…",
+      });
+    });
+  });
+}
 
 // TODO: Create a function to initialize app
 function init() {
   return inquirer.prompt(questions)
+  .then(readmeData => {
+    return readmeData;
+  })
 }
 
+
 // Function call to initialize app
-init();
+init()
+.then(readmeData => {
+  console.log(readmeData);
+  return generateMarkdown(readmeData);
+})
+.then(pageMD => {
+  return writeToFile(pageMD);
+})
+.then(writeToFileResponse => {
+  console.log(writeToFileResponse.message);
+})
+.catch(err => {
+  console.log(err);
+})
