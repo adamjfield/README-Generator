@@ -2,12 +2,12 @@
   # README Generator
 
   
-  ![badge](https://img.shields.io/badge/license-MIT-blue)
+  ![badge](https://img.shields.io/badge/license-None-blue)
     
 
   ## Description
 
-  This is a command-line application that accepts the users input to generate a professional README.md quickly.
+  Command line application that allows user to input information when propmted to eaily generate a README.md for their GitHub repo.
 
   ## Table of Contents
 
@@ -28,7 +28,7 @@
   <a name="usage"></a>
   ## Usage
 
-  Make sure to install dependencies before running the application
+  N/A
 
 
   <a name="license"></a>
@@ -37,7 +37,7 @@
   The application is covered under the following license:
 
   
-  Info on License: [MIT](https://choosealicense.com/licenses/MIT)
+  Info on License: [None](https://choosealicense.com/licenses/None)
     
   
 
@@ -45,7 +45,7 @@
   <a name="contributing"></a>
   ## Contributing
 
-  I am not taking contributions to the applications at this time.
+  Not taking contributions
 
   <a name="tests"></a>
   ## Test
