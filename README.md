@@ -58,3 +58,6 @@
   ## Questions
 
   If you have any questions about the repo, open an issue or contact me directly at [adamjfield@gmail.com](mailto:adamjfield@gmail.com) Source Han Sans). You can find more of my work at [adamjfield](https://github.com/adamjfield).
+
+## Walk through 
+![GIF](./assets/README.md_Generator_Walk-through.gif)
