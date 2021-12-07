@@ -7,7 +7,7 @@
 
   ## Description
 
-  A command line application that takes users input and generates a starter README.md file for their GitHub repository.
+  This application help generate a README.md file for your repo
 
   ## Table of Contents
 
@@ -28,7 +28,7 @@
   <a name="usage"></a>
   ## Usage
 
-  Make sure to run "npm i" in command line to install needed dependancies
+  To start the application type node index in your terminal
 
 
   <a name="license"></a>
@@ -45,7 +45,7 @@
   <a name="contributing"></a>
   ## Contributing
 
-  Contact me if you would like to contribute to this repo.
+  Plaese contact me by email if you wish to contribute
 
   <a name="tests"></a>
   ## Test

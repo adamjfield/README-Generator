@@ -1,63 +1,64 @@
+# README Generator
 
-  # README Generator
+![badge](https://img.shields.io/badge/license-None-blue)
 
-  
-  ![badge](https://img.shields.io/badge/license-None-blue)
-    
+## Description
 
-  ## Description
+Command line application that allows user to input information when propmted to eaily generate a README.md for their GitHub repo.
 
-  Command line application that allows user to input information when propmted to eaily generate a README.md for their GitHub repo.
+## Table of Contents
 
-  ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
-  
-  <a name="installation"></a>
-  ## Installation
+<a name="installation"></a>
 
-  To install necessary dependencies, run the following command:
-    
+## Installation
+
+To install necessary dependencies, run the following command:
+
     (npm i)
 
-  <a name="usage"></a>
-  ## Usage
+<a name="usage"></a>
 
-  N/A
+## Usage
 
+N/A
 
-  <a name="license"></a>
-  ## License
+<a name="license"></a>
 
-  The application is covered under the following license:
+## License
 
-  
-  Info on License: [None](https://choosealicense.com/licenses/None)
-    
-  
+The application is covered under the following license:
 
+Info on License: [None](https://choosealicense.com/licenses/None)
 
-  <a name="contributing"></a>
-  ## Contributing
+<a name="contributing"></a>
 
-  Not taking contributions
+## Contributing
 
-  <a name="tests"></a>
-  ## Test
+Not taking contributions
 
-  To run tests, run the following command:
-    
+<a name="tests"></a>
+
+## Test
+
+To run tests, run the following command:
+
     (npm test)
 
-  <a name="questions"></a>
-  ## Questions
+<a name="questions"></a>
 
-  If you have any questions about the repo, open an issue or contact me directly at [adamjfield@gmail.com](mailto:adamjfield@gmail.com) Source Han Sans). You can find more of my work at [adamjfield](https://github.com/adamjfield).
+## Questions
 
-## Walk through 
+If you have any questions about the repo, open an issue or contact me directly at [adamjfield@gmail.com](mailto:adamjfield@gmail.com) Source Han Sans). You can find more of my work at [adamjfield](https://github.com/adamjfield).
+
+## Walk through
+
 ![GIF](./assets/README.md_Generator_Walk-through.gif)
+
+[Click for video demo of application](https://youtu.be/U0t2IzmKTqU)
