@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "none") {
     return `
-  <a name="license"></a>
+  <a class="license"></a>
   ## License
 
   The application is covered under the following license:
@@ -42,7 +42,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.projectName}
+  # ${data.projectclass}
 
   ${renderLicenseBadge(data.license)}
 
@@ -59,14 +59,14 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  <a name="installation"></a>
+  <a class="installation"></a>
   ## Installation
 
   To install necessary dependencies, run the following command:
     
     ${data.install}
 
-  <a name="usage"></a>
+  <a class="usage"></a>
   ## Usage
 
   ${data.repoInstructions}
@@ -74,26 +74,26 @@ function generateMarkdown(data) {
 ${renderLicenseSection(data.license)}
 
 
-  <a name="contributing"></a>
+  <a class="contributing"></a>
   ## Contributing
 
   ${data.repoContribution}
 
-  <a name="tests"></a>
+  <a class="tests"></a>
   ## Test
 
   To run tests, run the following command:
     
     ${data.test}
 
-  <a name="questions"></a>
+  <a class="questions"></a>
   ## Questions
 
   If you have any questions about the repo, open an issue or contact me directly at [${
     data.email
   }](mailto:${data.email}) Source Han Sans). You can find more of my work at [${
-    data.githubUsername
-  }](https://github.com/${data.githubUsername}).
+    data.githubUserclass
+  }](https://github.com/${data.githubUserclass}).
 `;
 }
 
