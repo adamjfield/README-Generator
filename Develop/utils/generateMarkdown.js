@@ -92,8 +92,8 @@ ${renderLicenseSection(data.license)}
   If you have any questions about the repo, open an issue or contact me directly at [${
     data.email
   }](mailto:${data.email}) Source Han Sans). You can find more of my work at [${
-    data.githubUserclass
-  }](https://github.com/${data.githubUserclass}).
+    data.githubUsername
+  }](https://github.com/${data.githubUsername}).
 `;
 }
 
